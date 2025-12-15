@@ -1,0 +1,590 @@
+[I 2025-11-27 10:00:44.278 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-11-27 10:00:44.280 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-11-27 10:00:44.282 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-11-27 10:00:44.282 ServerApp] jupyterlab_spellchecker | extension was successfully linked.
+[I 2025-11-27 10:00:44.284 ServerApp] notebook | extension was successfully linked.
+[I 2025-11-27 10:00:44.504 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-11-27 10:00:44.517 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-11-27 10:00:44.518 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-11-27 10:00:44.518 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-11-27 10:00:44.520 LabApp] JupyterLab extension loaded from /home/hagusta/.conda/envs/py3.11.11/lib/python3.11/site-packages/jupyterlab
+[I 2025-11-27 10:00:44.520 LabApp] JupyterLab application directory is /home/hagusta/.conda/envs/py3.11.11/share/jupyter/lab
+[I 2025-11-27 10:00:44.520 LabApp] Extension Manager is 'pypi'.
+[I 2025-11-27 10:00:44.522 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-11-27 10:00:44.522 ServerApp] Looking for hunspell dictionaries for spellchecker in ['/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries', '/home/hagusta/.local/share/jupyter/dictionaries', '/usr/local/share/jupyter/dictionaries', '/usr/share/jupyter/dictionaries', '/usr/share/hunspell', '/usr/share/myspell', '/usr/share/myspell/dicts']
+[I 2025-11-27 10:00:44.602 ServerApp] Located hunspell dictionaries for spellchecker: [{'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'en_US', 'id': 'en_US', 'dic': 'en_US.dic', 'aff': 'en_US.aff', 'name': 'English (United States)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'es_ES', 'id': 'es_ES', 'dic': 'es_ES.dic', 'aff': 'es_ES.aff', 'name': 'español (España)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'de_AT_frami', 'id': 'de_AT_frami', 'dic': 'de_AT_frami.dic', 'aff': 'de_AT_frami.aff', 'name': 'Deutsch (Österreich)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'de_CH_frami', 'id': 'de_CH_frami', 'dic': 'de_CH_frami.dic', 'aff': 'de_CH_frami.aff', 'name': 'Deutsch (Schweiz)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'en_CA', 'id': 'en_CA', 'dic': 'en_CA.dic', 'aff': 'en_CA.aff', 'name': 'English (Canada)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'en_AU', 'id': 'en_AU', 'dic': 'en_AU.dic', 'aff': 'en_AU.aff', 'name': 'English (Australia)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'en_GB', 'id': 'en_GB-ise', 'dic': 'en_GB-ise.dic', 'aff': 'en_GB-ise.aff', 'name': 'English (United Kingdom)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'fr', 'id': 'fr', 'dic': 'fr.dic', 'aff': 'fr.aff', 'name': 'français'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'pt_PT', 'id': 'pt_PT', 'dic': 'pt_PT.dic', 'aff': 'pt_PT.aff', 'name': 'português (Portugal)'}, {'path': PosixPath('/home/hagusta/.conda/envs/py3.11.11/share/jupyter/dictionaries'), 'code': 'de_DE_frami', 'id': 'de_DE_frami', 'dic': 'de_DE_frami.dic', 'aff': 'de_DE_frami.aff', 'name': 'Deutsch (Deutschland)'}]
+[I 2025-11-27 10:00:44.603 ServerApp] Registered jupyterlab_spellchecker extension at URL path /spellchecker
+[I 2025-11-27 10:00:44.603 ServerApp] jupyterlab_spellchecker | extension was successfully loaded.
+[I 2025-11-27 10:00:44.605 ServerApp] notebook | extension was successfully loaded.
+[I 2025-11-27 10:00:44.605 ServerApp] Serving notebooks from local directory: /home/hagusta/workspace/simple_rag/notebook
+[I 2025-11-27 10:00:44.605 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-11-27 10:00:44.605 ServerApp] http://localhost:8888/lab?token=f5157926ccfa9607a1a0b4928bd9ef2bc09f8762d72e6c91
+[I 2025-11-27 10:00:44.605 ServerApp]     http://127.0.0.1:8888/lab?token=f5157926ccfa9607a1a0b4928bd9ef2bc09f8762d72e6c91
+[I 2025-11-27 10:00:44.605 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-11-27 10:00:46.398 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/hagusta/.local/share/jupyter/runtime/jpserver-167046-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=f5157926ccfa9607a1a0b4928bd9ef2bc09f8762d72e6c91
+        http://127.0.0.1:8888/lab?token=f5157926ccfa9607a1a0b4928bd9ef2bc09f8762d72e6c91
+WARNING: You don't seem to have any mimeinfo.cache files.
+Try running the update-desktop-database command. If you
+don't have this command you should install the
+desktop-file-utils package. This package is available from
+http://freedesktop.org/wiki/Software/desktop-file-utils/
+No applications found for mimetype: text/html
+./usr/bin/xdg-open: 882: x-www-browser: not found
+/usr/bin/xdg-open: 882: firefox: not found
+/usr/bin/xdg-open: 882: iceweasel: not found
+/usr/bin/xdg-open: 882: seamonkey: not found
+/usr/bin/xdg-open: 882: mozilla: not found
+/usr/bin/xdg-open: 882: epiphany: not found
+/usr/bin/xdg-open: 882: konqueror: not found
+/usr/bin/xdg-open: 882: chromium: not found
+/usr/bin/xdg-open: 882: chromium-browser: not found
+/usr/bin/xdg-open: 882: google-chrome: not found
+/usr/bin/xdg-open: 882: www-browser: not found
+/usr/bin/xdg-open: 882: links2: not found
+/usr/bin/xdg-open: 882: elinks: not found
+/usr/bin/xdg-open: 882: links: not found
+/usr/bin/xdg-open: 882: lynx: not found
+[I 2025-11-27 10:00:46.954 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+/usr/bin/xdg-open: 882: w3m: not found
+xdg-open: no method available for opening 'file:///home/hagusta/.local/share/jupyter/runtime/jpserver-167046-open.html'
+[I 2025-11-27 10:01:05.589 LabApp] Build is up to date
+[I 2025-11-27 10:01:05.890 ServerApp] Kernel started: bfc8ace9-e480-473d-b2f6-a169ed175837
+[I 2025-11-27 10:01:05.896 ServerApp] Kernel started: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 10:01:06.368 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[W 2025-11-27 10:01:06.369 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-11-27 10:01:06.399 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-27 10:01:06.424 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 10:01:06.439 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 10:01:38.958 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 10:01:38.960 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 10:01:39.264 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 10:01:39.264 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 10:03:04.620 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:03:05.997 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 10:03:06.001 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 10:03:06.285 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 10:03:06.285 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 10:05:03.517 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:07:05.927 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:09:05.048 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:11:06.783 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:13:06.108 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:15:08.065 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:19:07.696 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:21:08.919 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:23:08.155 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:25:08.959 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:27:08.227 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:29:09.821 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:31:09.256 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:33:10.280 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:35:09.211 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:37:10.575 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:39:09.536 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:41:10.753 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:43:09.816 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:45:11.047 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:47:09.872 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:49:09.187 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 10:51:10.562 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:23:37.353 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:25:35.847 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:27:38.331 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:29:38.108 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:31:39.457 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:33:39.223 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:35:40.424 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:37:39.402 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:39:38.276 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:41:39.902 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:43:39.355 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:45:40.493 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:47:40.275 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:49:42.350 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:51:41.332 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:53:42.677 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:55:41.441 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:57:43.302 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 11:59:42.174 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:01:43.570 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:03:42.521 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:05:44.015 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:07:43.093 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:09:42.272 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:11:44.845 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:13:43.688 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:15:45.620 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:17:44.190 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:19:46.439 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:21:45.321 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:23:46.572 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:25:45.799 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:27:45.302 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:29:48.124 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:31:47.076 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:33:48.319 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:35:49.216 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:37:51.367 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:39:50.841 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:41:53.436 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:43:53.837 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:45:56.119 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:47:55.010 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:49:56.525 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:51:55.894 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:53:55.110 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:55:56.930 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:57:55.832 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 12:59:57.338 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:05:56.371 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:09:58.301 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:11:57.042 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:13:59.425 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:16:00.841 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:18:03.175 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:20:02.592 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:22:04.941 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:24:05.087 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:26:03.355 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:28:05.316 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:30:05.844 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:32:08.439 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:34:07.102 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:36:08.813 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:44:11.601 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:46:11.234 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:48:13.066 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:50:12.508 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:52:14.968 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:54:14.039 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:56:15.080 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 13:58:14.063 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:00:15.184 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:02:15.467 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:04:14.124 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:06:17.248 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:08:16.506 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:16:20.295 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:18:19.124 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:20:20.951 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:36:25.285 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:38:27.888 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:40:27.630 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:42:29.631 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:44:28.793 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:46:27.698 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:48:29.897 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:50:28.897 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:52:31.028 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 14:54:29.895 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:42:30.924 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:44:32.896 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:46:32.432 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:47:36.724 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 15:47:40.022 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 15:48:34.527 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:50:34.318 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:52:34.150 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:54:37.146 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:56:36.651 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 15:58:39.196 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:00:38.799 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:02:40.119 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:04:39.276 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:04:59.906 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 16:05:06.763 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 16:05:06.767 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:05:07.056 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 16:05:07.056 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:06:09.009 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 16:06:09.013 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:06:09.296 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 16:06:09.296 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:06:41.299 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:08:40.055 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:10:42.167 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:12:41.267 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:14:41.217 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:16:43.871 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:18:42.963 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:20:45.359 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:22:45.051 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:24:44.540 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:26:47.756 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:30:49.688 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:32:48.022 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:34:47.235 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:36:49.100 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:38:48.259 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:40:50.380 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:42:49.370 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:44:49.075 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:46:51.374 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:50:08.256 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 16:50:08.259 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:50:08.539 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 16:50:08.539 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 16:50:52.089 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:52:50.872 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:54:50.261 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 16:56:52.005 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:25:36.587 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:27:39.683 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:29:39.448 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:35:42.032 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:37:40.794 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:39:43.146 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:41:41.975 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:42:27.061 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 17:42:45.190 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-11-27 17:42:45.194 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 17:42:45.483 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-27 17:42:45.483 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-27 17:43:44.232 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:45:43.144 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:47:42.068 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:49:44.047 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:51:42.852 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-27 17:53:41.742 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-11-28 02:20:53.511 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 02:20:53.535 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 10:17:47.353 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-28 10:17:47.353 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 10:17:47.369 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-28 10:17:47.369 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 10:18:14.045 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 10:18:14.046 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 10:18:14.514 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-28 10:18:14.514 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 10:18:14.532 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-28 10:18:14.532 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 10:18:19.751 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 10:18:19.753 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 10:18:22.176 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-28 10:18:22.176 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 10:18:22.257 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-28 10:18:22.257 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-28 12:52:41.332 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-28 12:52:41.333 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:20:49.430 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 00:20:49.430 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:20:49.628 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 00:20:49.628 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 00:22:45.774 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 00:22:45.784 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:22:46.147 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 00:22:46.147 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 00:22:46.162 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 00:22:46.162 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:23:08.116 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:23:08.117 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 00:23:08.502 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 00:23:08.502 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:23:08.521 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 00:23:08.521 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 00:32:00.504 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 00:32:00.504 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 12:20:17.973 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 12:20:17.973 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 12:20:22.985 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 12:20:22.985 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 13:55:50.029 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 13:55:50.030 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 14:10:58.373 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 14:10:58.373 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 14:10:58.401 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 14:10:58.401 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 14:11:23.083 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 14:11:23.084 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 14:11:23.467 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 14:11:23.468 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 14:11:23.485 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 14:11:23.485 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 15:06:26.135 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 15:06:26.137 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 16:34:53.071 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 16:34:53.071 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 16:34:53.089 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 16:34:53.089 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 16:34:55.827 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 16:34:55.858 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-29 16:34:57.221 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-29 16:34:57.221 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-29 16:34:57.247 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-29 16:34:57.247 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 01:28:59.998 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 01:29:00.000 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 12:12:18.380 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-30 12:12:18.380 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 12:12:18.395 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-30 12:12:18.395 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 13:37:10.059 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 13:37:10.060 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 14:11:20.153 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-30 14:11:20.153 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 14:11:20.177 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-30 14:11:20.178 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 14:11:43.770 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 14:11:43.771 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 14:11:44.175 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-30 14:11:44.175 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 14:11:44.198 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-30 14:11:44.198 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 19:00:11.594 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 19:00:11.594 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 19:43:06.590 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-30 19:43:06.590 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 19:43:06.607 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-30 19:43:06.607 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 22:00:13.185 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 22:00:13.185 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-11-30 22:02:52.024 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-11-30 22:02:52.024 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-11-30 22:02:52.042 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-11-30 22:02:52.042 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-01 01:43:48.168 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-01 01:43:48.169 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 02:11:56.160 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-01 02:11:56.160 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-01 02:11:56.182 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 02:11:56.182 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 02:56:50.416 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 02:56:50.416 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-01 08:44:28.054 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 08:44:28.055 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 08:44:28.072 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-01 08:44:28.072 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-01 11:07:49.563 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 11:07:49.568 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 11:07:49.884 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 11:07:49.885 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 11:08:43.660 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:10:43.831 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:12:43.958 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:14:44.032 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:16:44.126 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:26:47.683 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:28:47.999 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:29:35.876 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 11:29:35.879 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 11:29:36.190 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 11:29:36.190 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 11:30:47.920 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:32:47.965 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:34:48.213 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:36:48.296 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:38:48.592 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:42:50.660 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:46:51.709 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 11:48:51.760 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:00:54.926 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:02:54.768 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:04:54.949 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:51:44.002 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:53:43.810 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 12:55:44.915 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 13:01:44.943 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 13:03:44.715 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 13:05:45.004 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:03:45.252 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:05:45.609 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:07:45.257 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:13:45.514 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:15:45.881 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:17:46.252 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:19:45.762 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:25:46.592 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:27:47.873 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:29:47.437 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:31:48.748 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:35:49.593 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:37:50.100 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:39:50.344 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:40:02.931 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:42:03.368 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:44:03.610 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:46:03.984 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:48:03.369 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:50:03.921 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:50:09.353 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 14:50:09.357 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 14:50:09.669 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 14:50:09.669 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 14:52:04.362 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:53:53.964 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 14:54:03.821 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:56:04.210 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:57:36.807 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 14:57:52.795 ServerApp] Kernel interrupted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 14:58:04.782 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 14:58:25.450 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 14:58:25.453 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 14:58:25.752 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 14:58:25.752 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:00:04.219 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:02:04.745 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:03:50.693 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:03:50.696 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:03:50.994 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:03:50.994 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:04:04.257 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:06:04.691 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:08:05.240 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:15:03.688 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:31:42.806 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:31:42.813 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:31:44.031 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:31:44.032 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:32:10.625 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:32:10.628 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:32:10.937 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:32:10.938 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:32:10.943 ServerApp] Replaying 1 buffered messages
+[I 2025-12-01 15:32:56.858 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:32:56.860 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:32:57.145 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:32:57.145 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:32:57.149 ServerApp] Replaying 1 buffered messages
+[I 2025-12-01 15:33:43.770 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:35:44.036 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:37:28.746 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:37:28.749 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:37:29.056 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:37:29.056 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:37:43.625 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:39:44.074 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:41:43.978 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:43:44.411 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:44:22.571 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:44:22.574 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:44:22.871 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:44:22.871 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:45:38.685 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 15:45:38.689 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:45:38.995 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 15:45:38.995 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 15:45:43.975 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:47:44.453 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:49:44.935 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:51:44.476 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:53:44.895 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:55:44.392 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:57:44.908 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 15:58:06.354 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:00:05.854 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:02:05.601 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:02:55.159 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 16:02:55.161 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 16:02:55.461 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 16:02:55.462 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 16:04:06.214 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:06:06.945 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:12:06.168 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:14:06.723 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:16:07.260 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:18:06.678 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:19:21.393 ServerApp] Kernel restarted: dc2dd091-7b00-4d70-a261-5169b03e2498
+[I 2025-12-01 16:19:21.396 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 16:19:21.703 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-01 16:19:21.703 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-01 16:20:07.340 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:22:06.622 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-01 16:24:07.168 ServerApp] Saving file at /evaluation.ipynb
+[I 2025-12-02 02:01:44.902 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-02 02:01:44.906 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-02 02:01:48.058 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-02 02:01:48.059 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-02 02:01:48.074 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-02 02:01:48.074 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-02 02:22:04.764 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-02 02:22:04.768 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-02 09:05:11.292 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-02 09:05:11.292 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-02 09:05:11.386 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-02 09:05:11.386 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-02 12:28:02.113 ServerApp] Creating new notebook in 
+[I 2025-12-02 12:28:02.324 ServerApp] Kernel started: 740c3129-afb7-4e0d-9a73-8271401b1160
+[I 2025-12-02 12:28:02.942 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-02 12:30:01.618 ServerApp] Saving file at /pendantic.ipynb
+[I 2025-12-02 12:34:04.002 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 12:36:03.663 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 12:38:02.526 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 12:42:03.554 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 12:44:05.850 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 12:46:05.093 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 13:40:06.764 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 13:42:06.892 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 13:44:07.768 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 13:56:11.781 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 13:58:11.888 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 14:00:12.014 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-02 16:21:45.812 ServerApp] Saving file at /pydantic.ipynb
+[I 2025-12-03 02:16:49.697 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-03 02:16:49.703 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-03 02:16:49.704 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-03 02:16:53.260 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-03 02:16:53.260 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-03 02:16:53.282 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-03 02:16:53.282 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-03 02:16:53.296 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-03 02:16:53.296 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-03 03:13:15.418 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-03 03:13:15.420 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-03 03:13:15.421 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-03 10:23:22.493 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-03 10:23:22.493 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-03 10:23:22.625 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-03 10:23:22.626 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-03 10:23:22.643 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-03 10:23:22.643 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 02:16:43.192 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 02:16:43.211 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 02:16:43.213 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 02:16:55.658 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-04 02:16:55.658 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 02:16:55.680 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-04 02:16:55.680 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 02:16:55.706 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-04 02:16:55.706 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 03:12:13.410 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 03:12:13.413 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 03:12:13.423 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 08:47:29.722 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-04 08:47:29.722 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 08:47:29.744 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-04 08:47:29.744 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 08:47:29.768 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-04 08:47:29.768 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 12:03:01.938 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 12:03:01.965 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 12:03:01.968 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 12:03:04.682 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-04 12:03:04.682 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 12:03:04.704 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-04 12:03:04.704 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-04 12:03:04.719 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-04 12:03:04.720 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 13:59:30.541 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-04 13:59:30.542 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-04 13:59:30.542 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-05 14:15:50.753 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-05 14:15:50.753 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-05 14:15:50.772 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-05 14:15:50.772 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-05 14:15:50.788 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-05 14:15:50.788 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-05 14:48:00.302 ServerApp] Starting buffering for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-05 14:48:00.318 ServerApp] Starting buffering for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3
+[I 2025-12-05 14:48:00.320 ServerApp] Starting buffering for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-05 14:48:02.693 ServerApp] Connecting to kernel 740c3129-afb7-4e0d-9a73-8271401b1160.
+[I 2025-12-05 14:48:02.693 ServerApp] Restoring connection for 740c3129-afb7-4e0d-9a73-8271401b1160:ed33e4d4-8621-4ea7-a718-f86635f5bb0f
+[I 2025-12-05 14:48:02.737 ServerApp] Connecting to kernel bfc8ace9-e480-473d-b2f6-a169ed175837.
+[I 2025-12-05 14:48:02.737 ServerApp] Restoring connection for bfc8ace9-e480-473d-b2f6-a169ed175837:c3370afb-b305-4430-b5fe-ff91a09ff8e3
+[I 2025-12-05 14:48:02.761 ServerApp] Connecting to kernel dc2dd091-7b00-4d70-a261-5169b03e2498.
+[I 2025-12-05 14:48:02.761 ServerApp] Restoring connection for dc2dd091-7b00-4d70-a261-5169b03e2498:af9b2d18-18e8-4709-857f-d57e514e15c3

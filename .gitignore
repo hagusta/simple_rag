@@ -2,3 +2,9 @@
 /data
 test*
 *test*
+/ibm-granite
+/phi
+/bak
+/.chainlit
+/.files
+/__pycache__

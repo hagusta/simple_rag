@@ -21,7 +21,7 @@ client=get_qdrant_client()
 
 def document_to_chunks (documents:List):
     split_to_chunk = RecursiveCharacterTextSplitter(
-            chunk_size = 200,
+            chunk_size = 300,
             chunk_overlap = 0,
             length_function = len,
             strip_whitespace = True,
