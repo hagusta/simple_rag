@@ -1,0 +1,1 @@
+python ~/llama-cpp-python/llama.cp/convert-hf-to-gguf.py ~/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL/snapshots/7faba727a1c11ec07247fd41a52868ed966c7cb3 --outfile PaddleOCR-VL/PaddleOCR-VL.gguf --outtype q8_0

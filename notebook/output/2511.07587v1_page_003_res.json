@@ -1,0 +1,560 @@
+{
+    "input_path": "../images/2511.07587v1_page_003.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                324,
+                156,
+                1357,
+                496
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Figure 1: Unifying Brain-Inspired and Generative Semantics for Episodic Memory Modeling The hippocampal complex (DG, CA3, CA1) and neocortical regions (NC) inspire the Reconciler (retrieval, workspace, update) and Operator (LLM-driven semantic role extraction), respectively. The neocortical complex, responsible for context-rich consolidation and predictive modeling, aligns with the Operator module's functions. The hippocampal complex, which performs indexing, pattern separation, and sequence modeling, corresponds to the Reconciler. Together, the GSW framework offers a biologically inspired, interpretable model for simulating world knowledge from text inputs.",
+            "block_bbox": [
+                139,
+                524,
+                1557,
+                714
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "internal models (Ólafsdóttir, Bush, and Barry 2018; Louie and Wilson 2001; Wilson and McNaughton 1994). This back and forth supports both persistence and prediction of memory (McClelland, McNaughton, and O'Reilly 1995; Rasch and Born 2013), key features of episodic memory.",
+            "block_bbox": [
+                140,
+                768,
+                818,
+                928
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "Motivated by this biological architecture (see Fig 1), an effective memory framework requires a structured representation capable of encoding actors along with their evolving roles and states. Crucially, this representation must be capable of spatiotemporal grounding, linking entities and their interactions to specific times and locations, much like the binding function of the hippocampus. Finally, the framework must possess a process for consolidating and updating these structures as new information arrives, mirroring the way the neocortical-hippocampal loop constantly refines its world model. This process of building an evolving model is illustrated with a detailed end-to-end example in Appendix B.",
+            "block_bbox": [
+                140,
+                941,
+                820,
+                1341
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "From Episodic Memory to Generative Modeling of Situations and Narratives: The central challenge, therefore, is to create a continuously evolving semantic model, which requires a bidirectional mapping between text and a structured representation. While early symbolic frameworks like PropBank (Kingsbury and Palmer 2002) and FrameNet (Baker, Fillmore, and Lowe 1998) attempted this, they were not designed for this full bidirectional process, relying instead on fixed ontologies that lacked the necessary probabilistic and dynamic interpretation.",
+            "block_bbox": [
+                140,
+                1357,
+                821,
+                1666
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "LLMs now make this bidirectional mapping tractable. They can both infer concise semantic identifiers from text and generate coherent narratives from those identifiers. This enables a new, efficient memory model where compact semantic traces are stored and reactivated in context. The formal model is presented next, and its approach is validated in Appendix I, where a human evaluation shows a strong preference for the GSW semantic maps over those from frameworks like PropBank and FrameNet.",
+            "block_bbox": [
+                140,
+                1681,
+                819,
+                1959
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "A Probabilistic Model for Semantic Memory: The Operator Framework",
+            "block_bbox": [
+                878,
+                767,
+                1535,
+                834
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "We now define a minimal schema for encoding these semantic elements—along with predictive cues, spatiotemporal attributes, and utilities—that serves as the foundation of the GSW framework for structured memory in LLMs. The agent must distill and maintain a semantic map from text to build a coherent semantic model.",
+            "block_bbox": [
+                877,
+                842,
+                1557,
+                1025
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "To make this concrete, let's consider a single text input  $ C_{n} $  at some time step n: Yesterday, in a swift response to a reported robbery, law enforcement officers apprehended Jonathan Miller, a 32-year-old resident of Greenview Avenue, in the downtown area.",
+            "block_bbox": [
+                878,
+                1025,
+                1557,
+                1178
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8
+        },
+        {
+            "block_label": "text",
+            "block_content": "Explicit information in  $ C_{n} $  typically specifies a configuration of participating actors  $ a_{1},\\ldots,a_{K} $  and the relations or interactions among them. The agent must distill and maintain a semantic map from these clues to build a coherent semantic model. Let's represent this interaction pattern at time step n as (here each entry denotes an interaction from actor  $ a_{i} $  to  $ a_{j} $  as inferred from  $ C_{n} $ ):",
+            "block_bbox": [
+                877,
+                1178,
+                1557,
+                1394
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9
+        },
+        {
+            "block_label": "display_formula",
+            "block_content": " $$ \\mathcal{C}_{n}\\approx\\begin{pmatrix}(a_{1}\\rightarrow a_{1})^{n}&\\cdots&(a_{1}\\rightarrow a_{K})^{n}\\\\\\vdots&\\ddots&\\vdots\\ $ a_{K}\\rightarrow a_{1})^{n}&\\cdots&(a_{K}\\rightarrow a_{K})^{n}\\end{pmatrix}; $$ ",
+            "block_bbox": [
+                954,
+                1433,
+                1475,
+                1554
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Actors, Roles and States",
+            "block_bbox": [
+                879,
+                1571,
+                1176,
+                1601
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "The word ‘Miller’, in isolation, corresponds to a broad, unconditioned distribution over possible behaviors of a human. If ‘Miller’ is likely to commit a crime, the agent would probably refer to Miller with a label ‘Criminal’. We call these labels roles.",
+            "block_bbox": [
+                877,
+                1603,
+                1558,
+                1755
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 12
+        },
+        {
+            "block_label": "text",
+            "block_content": "Role: An identifier that specifies a distribution over potential actions that an actor  $ a_{i} \\in A $  may take toward other actors  $ a_{j} \\in A $ :",
+            "block_bbox": [
+                878,
+                1759,
+                1554,
+                1854
+            ],
+            "block_id": 13,
+            "block_order": 12,
+            "group_id": 13
+        },
+        {
+            "block_label": "display_formula",
+            "block_content": " $$ \\pi_{r}:\\mathcal{A}\\times\\mathcal{A}\\rightarrow[0,1] $$ ",
+            "block_bbox": [
+                1098,
+                1851,
+                1335,
+                1884
+            ],
+            "block_id": 14,
+            "block_order": 13,
+            "group_id": 14
+        },
+        {
+            "block_label": "formula_number",
+            "block_content": "(1)",
+            "block_bbox": [
+                1517,
+                1854,
+                1552,
+                1883
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15
+        },
+        {
+            "block_label": "text",
+            "block_content": "where $\\pi_{r}(a_{i} \\rightarrow a_{j})$ denotes the probability of $a_{i}$ acting on $a_{j}$ in role $r$. For example, assigning the role of ‘criminal’",
+            "block_bbox": [
+                878,
+                1893,
+                1557,
+                1959
+            ],
+            "block_id": 16,
+            "block_order": 14,
+            "group_id": 16
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9842634797096252,
+                "coordinate": [
+                    324.97650146484375,
+                    156.85720825195312,
+                    1357.105224609375,
+                    496.5408020019531
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.9744062423706055,
+                "coordinate": [
+                    139.7877197265625,
+                    524.6585083007812,
+                    1557.0086669921875,
+                    714.1865844726562
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9844473600387573,
+                "coordinate": [
+                    140.42501831054688,
+                    768.906494140625,
+                    818.238525390625,
+                    928.350830078125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9885714650154114,
+                "coordinate": [
+                    140.47625732421875,
+                    941.6893310546875,
+                    820.8829956054688,
+                    1341.0010986328125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9883408546447754,
+                "coordinate": [
+                    140.46780395507812,
+                    1357.017822265625,
+                    821.7503662109375,
+                    1666.37451171875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9881717562675476,
+                "coordinate": [
+                    140.63421630859375,
+                    1681.8446044921875,
+                    819.6930541992188,
+                    1959.2342529296875
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9666597843170166,
+                "coordinate": [
+                    878.4443359375,
+                    767.7939453125,
+                    1535.442626953125,
+                    834.84375
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9868185520172119,
+                "coordinate": [
+                    877.0166015625,
+                    842.2987060546875,
+                    1557.477294921875,
+                    1025.9324951171875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8475279808044434,
+                "coordinate": [
+                    884.543701171875,
+                    1058.660400390625,
+                    920.718505859375,
+                    1087.837158203125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9844965934753418,
+                "coordinate": [
+                    878.46044921875,
+                    1025.89111328125,
+                    1557.015380859375,
+                    1178.0576171875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8333486914634705,
+                "coordinate": [
+                    1172.7081298828125,
+                    1180.213134765625,
+                    1207.8341064453125,
+                    1209.603271484375
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8756542205810547,
+                "coordinate": [
+                    1194.49755859375,
+                    1214.5028076171875,
+                    1319.3251953125,
+                    1240.5528564453125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9860742092132568,
+                "coordinate": [
+                    877.697998046875,
+                    1178.78955078125,
+                    1557.857666015625,
+                    1394.15185546875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8074527978897095,
+                "coordinate": [
+                    1070.3836669921875,
+                    1361.065185546875,
+                    1116.2117919921875,
+                    1391.080322265625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5037229657173157,
+                "coordinate": [
+                    1461.877685546875,
+                    1336.83447265625,
+                    1488.662841796875,
+                    1362.03466796875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.47030824422836304,
+                "coordinate": [
+                    1520.514404296875,
+                    1336.8680419921875,
+                    1549.880859375,
+                    1365.2852783203125
+                ]
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9694501161575317,
+                "coordinate": [
+                    954.4190673828125,
+                    1433.791259765625,
+                    1475.8885498046875,
+                    1554.62646484375
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9135668277740479,
+                "coordinate": [
+                    879.9210815429688,
+                    1571.5521240234375,
+                    1176.472900390625,
+                    1601.2449951171875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9823341369628906,
+                "coordinate": [
+                    877.8115234375,
+                    1603.1527099609375,
+                    1558.919189453125,
+                    1755.2291259765625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8552200198173523,
+                "coordinate": [
+                    1122.55810546875,
+                    1793.85595703125,
+                    1211.453857421875,
+                    1821.626220703125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9650620818138123,
+                "coordinate": [
+                    878.564697265625,
+                    1759.6318359375,
+                    1554.793212890625,
+                    1854.275390625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8804332613945007,
+                "coordinate": [
+                    883.453125,
+                    1823.6578369140625,
+                    975.2987060546875,
+                    1853.7576904296875
+                ]
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9410799741744995,
+                "coordinate": [
+                    1098.1888427734375,
+                    1851.83642578125,
+                    1335.6007080078125,
+                    1884.88818359375
+                ]
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.9039291739463806,
+                "coordinate": [
+                    1517.8138427734375,
+                    1854.25634765625,
+                    1552.3636474609375,
+                    1883.39404296875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9285138249397278,
+                "coordinate": [
+                    959.3043823242188,
+                    1895.9310302734375,
+                    1105.242431640625,
+                    1926.2176513671875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8327609300613403,
+                "coordinate": [
+                    883.3231201171875,
+                    1931.848388671875,
+                    912.8079833984375,
+                    1959.324462890625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.963480532169342,
+                "coordinate": [
+                    878.2264404296875,
+                    1893.96923828125,
+                    1557.2322998046875,
+                    1959.5732421875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8223920464515686,
+                "coordinate": [
+                    1411.08349609375,
+                    1900.024658203125,
+                    1437.095703125,
+                    1924.952880859375
+                ]
+            }
+        ]
+    }
+}

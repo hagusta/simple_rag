@@ -8,3 +8,4 @@ test*
 /.chainlit
 /.files
 /__pycache__
+/notebook/.ipynb_checkpoints
